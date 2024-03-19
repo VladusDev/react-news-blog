@@ -1,0 +1,21 @@
+@import "../../../index.scss";
+
+.hrLine {
+  margin: 15px 0;
+}
+
+.sort > select {
+  font-size: 15px;
+  border: 2px solid teal;
+  background: transparent;
+  font-weight: bold;
+  border-radius: 15px;
+
+  &:focus {
+    border-color: red;
+  }
+
+  > option {
+    font-weight: bold;
+  }
+}

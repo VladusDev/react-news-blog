@@ -1,0 +1,13 @@
+@import "../../../index.scss";
+
+button {
+  outline: none;
+  border: 2px solid $homeColor;
+  color: $homeColor;
+  background: transparent;
+
+  padding: 3px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial;
+}
